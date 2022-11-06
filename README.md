@@ -18,6 +18,7 @@
 
 以下のVisual Studio Code 拡張をインストール
 
+* EditorConfig.EditorConfig
 * ms-dotnettools.csharp
 * Ionide.Ionide-fsharp
 
