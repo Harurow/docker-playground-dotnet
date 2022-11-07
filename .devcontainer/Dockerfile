@@ -15,3 +15,7 @@ RUN apt-get update \
     && localedef -f UTF-8 -i ja_JP ja_JP.UTF-8
 
 RUN apt-get -y install curl git
+
+# 開発証明書を発行
+USER vscode
+RUN dotnet dev-certs https --trust

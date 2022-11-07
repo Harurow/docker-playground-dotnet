@@ -16,6 +16,12 @@
 
 ホスト側の`workspace`フォルダをコンテナ側の`/workspace`としてマウントしている
 
+`vscode`で開発証明書を発行済み
+
+```sh
+dotnet dev-certs https --trust
+```
+
 以下のVisual Studio Code 拡張をインストール
 
 * EditorConfig.EditorConfig
